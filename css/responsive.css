@@ -160,6 +160,8 @@
    .custom-bef-aft-content .gallery-image img {height: 192px;}
    .custom-banner {margin-top: 87px;}
    .custom-footer::before {background-position: 0% 0%;}
+   .custom-footer .footer-main {margin-bottom: 20px;}
+   .custom-footer .footer-copyright p {padding: 10px 0;}
 
    .ty-left {height: 245px;}
    .ty-right {height: 400px;}
