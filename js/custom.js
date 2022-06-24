@@ -75,3 +75,19 @@ jQuery(document).ready(function(){
         jQuery(this).parent().parent('.gallery-img-box').addClass('cus-hide')
     })
 }); 
+
+
+jQuery(document).ready(function(){
+    jQuery(window).scroll(function() {
+       if(jQuery(this).scrollTop() > 100 ) {
+       jQuery(".header-bottom").addClass("fixed-top");
+      } else {
+       jQuery(".header-bottom").removeClass("fixed-top");
+      }
+    });
+    jQuery('.nav-item').click(function() {
+        jQuery('.nav-item').removeClass('active')
+        jQuery(this).addClass('active')
+    })
+});
+
